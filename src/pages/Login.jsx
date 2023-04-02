@@ -10,7 +10,9 @@ export const Login = () => {
 
             <h4>{nombre ? nombre : ''}</h4>
 
-            <pre>{JSON.stringify({ id, nombre, email }, null, 3)}</pre>
+            <pre aria-label="pre">
+                {JSON.stringify({ id, nombre, email }, null, 3)}
+            </pre>
 
             <button
                 className="btn btn-primary"

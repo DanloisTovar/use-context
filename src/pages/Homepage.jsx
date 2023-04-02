@@ -7,7 +7,9 @@ export const Homepage = () => {
         <>
             <h1>Homepage!!</h1>
 
-            <pre>{JSON.stringify({ id, nombre, email }, null, 3)}</pre>
+            <pre aria-label="pre">
+                {JSON.stringify({ id, nombre, email }, null, 3)}
+            </pre>
         </>
     );
 };

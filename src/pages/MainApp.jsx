@@ -1,10 +1,10 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Homepage, About, Login } from '../pages';
+import { Homepage, About, Login } from '.';
 import { Navbar } from '../../components/Navbar';
 import { UserProvider } from '../../context/UserProvider';
 
-export const Main = () => {
+export const MainApp = () => {
     return (
         <UserProvider>
             <div className="container pt-3">
